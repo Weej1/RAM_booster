@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#Written On: Dec 2014
-#Written By: Tal
+#Written On: Dec 2014 by Tal
+#modified By: Weej on 24th April 2017 for Ubuntu 17.04 and other systemd enabled OSs
 #Written For: Ubuntu Forums Community
 #Description:
 #	This is the main script that installs/uninstalls everything. Any
@@ -66,7 +66,7 @@ SCRIPT_DIR=$(readlink -f $(dirname $0))
 LOG='/var/log/ram_booster.log'
 
 #Ubuntu Version this script will work on
-UBUNTU_VERSION='14.10'
+UBUNTU_VERSION='17.04'
 
 #Path to the file that contains all the functions for this script
 RAM_LIB="$SCRIPT_DIR/extras_$UBUNTU_VERSION/Original_OS/ram_lib"
